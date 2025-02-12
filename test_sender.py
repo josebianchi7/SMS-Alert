@@ -5,6 +5,7 @@ import json
 
 # Store URL of resource (server)
 url = 'http://127.0.0.1:5000/send-json' 
+# url = 'http://classwork.engr.oregonstate.edu:59753/send-json'
 
 data = {
     "coordinates": [{"latitude": 34.0522, "longitude": -118.2437},
