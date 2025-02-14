@@ -52,4 +52,5 @@ npm install @vonage/server-sdk
 
 Following remaining steps for implementation on your Voyage dashboard at the "Try the SMS API" page.
 
+On Glitch, web socket/ app are continuosly running, so no  further action after server.js file is complete.
 
