@@ -42,7 +42,7 @@ app.post('/sms-alert', (req, res) => {
   coordinates.forEach(curr_coordinate => {
     let curr_lat = curr_coordinate.latitude;
     let curr_long = curr_coordinate.longitude;
-    let googleMapsLink = `https://www.google.com/maps?q=${curr_lat},${curr_long}`;
+    let googleMapsLink = `https://maps.google.com/?q=${curr_lat},${curr_long}\n\n`;
 
     // Send SMS message
     const to = "1" + phone

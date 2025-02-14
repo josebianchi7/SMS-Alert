@@ -8,8 +8,8 @@ import json
 url = 'https://economic-rainy-numeric.glitch.me/sms-alert'
 
 data = {
-    "coordinates": [{"latitude": 34.0529, "longitude": -118.2437},
-        {"latitude": 36.1681, "longitude": -115.1398}],
+    "coordinates": [{"latitude": 30.364124, "longitude": -97.227034},
+        {"latitude": 31.364124, "longitude": -97.227036}],
     "phone": "5127736797"
     } 
 
