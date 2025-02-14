@@ -1,3 +1,9 @@
+/*
+Name: Jose Bianchi
+Description: Program acts as a web socket to listen for data and send SMS message with data converted into 
+  Google Maps link.
+*/
+
 const express = require('express');
 const WebSocket = require('ws');
 const fs = require('fs');
