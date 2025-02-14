@@ -1,2 +1,3 @@
 # Ignore following files/ directories for syncs
 /credentials.py
+/receiver.py
