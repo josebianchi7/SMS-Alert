@@ -8,9 +8,8 @@ import json
 url = 'https://economic-rainy-numeric.glitch.me/sms-alert'
 
 data = {
-    "coordinates": [{"latitude": 30.364124, "longitude": -97.227034},
-        {"latitude": 31.364124, "longitude": -97.227036}],
-    "phone": "5127736797"
+    "route": "https://www.google.com/maps/dir/starting_latitude,starting_longitude/stop_1_latitude,stop_1_longitude/stop_2_latitude,stop_2_longitude/destination_latitude,destination_longitude/",
+    "phone": "772-607-1597"
     } 
 
 # Send new data via POST request
