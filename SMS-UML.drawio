@@ -1,0 +1,91 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.0.16">
+  <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
+    <mxGraphModel dx="1024" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hTPFos401AXiAO-aHQCh-74" value="HTTP POST request with JSON data" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="249" width="123" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hTPFos401AXiAO-aHQCh-87" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Main Program&lt;/b&gt;&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};size=60;" vertex="1" parent="1">
+          <mxGeometry x="160" y="160" width="160" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="hTPFos401AXiAO-aHQCh-91" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="hTPFos401AXiAO-aHQCh-87">
+          <mxGeometry x="75" y="80" width="10" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="hTPFos401AXiAO-aHQCh-89" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;SMS Microservice&lt;/b&gt;&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};size=60;" vertex="1" parent="1">
+          <mxGeometry x="360" y="160" width="160" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="hTPFos401AXiAO-aHQCh-95" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="hTPFos401AXiAO-aHQCh-89">
+          <mxGeometry x="75" y="80" width="10" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="hTPFos401AXiAO-aHQCh-90" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Vonage API&lt;/b&gt;&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};size=60;" vertex="1" parent="1">
+          <mxGeometry x="560" y="160" width="160" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="hTPFos401AXiAO-aHQCh-94" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="hTPFos401AXiAO-aHQCh-90">
+          <mxGeometry x="75" y="160" width="10" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="hTPFos401AXiAO-aHQCh-92" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;SMS Recipient&lt;/b&gt;&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};size=60;" vertex="1" parent="1">
+          <mxGeometry x="760" y="160" width="160" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="hTPFos401AXiAO-aHQCh-93" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="hTPFos401AXiAO-aHQCh-92">
+          <mxGeometry x="75" y="240" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hTPFos401AXiAO-aHQCh-100" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="245" y="280" as="sourcePoint" />
+            <mxPoint x="435" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTPFos401AXiAO-aHQCh-101" value="JSON data must contain keys &quot;route&quot; and &quot;phone&quot;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
+          <mxGeometry x="70" y="230" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hTPFos401AXiAO-aHQCh-103" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;HTTP response with status&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;and verification that data&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;contains necessary keys&amp;nbsp;&lt;/font&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0.438;exitY=0.475;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.393;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="434.0799999999999" y="350" as="sourcePoint" />
+            <mxPoint x="244" y="350.03999999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTPFos401AXiAO-aHQCh-105" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="446" y="400" as="sourcePoint" />
+            <mxPoint x="636" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTPFos401AXiAO-aHQCh-106" value="sendSMS(&quot;route&quot;)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="375" width="123" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hTPFos401AXiAO-aHQCh-107" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp;sendSMS() response&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0.438;exitY=0.475;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.393;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="634.54" y="441" as="sourcePoint" />
+            <mxPoint x="444.46000000000004" y="441.03999999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTPFos401AXiAO-aHQCh-108" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp;sendSMS() error&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0.438;exitY=0.475;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.393;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="635.54" y="507" as="sourcePoint" />
+            <mxPoint x="445.46000000000004" y="507.03999999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTPFos401AXiAO-aHQCh-109" value="If phone number is invalid, Vonage API will not send SMS" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
+          <mxGeometry x="650" y="462" width="140" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="hTPFos401AXiAO-aHQCh-111" value="opt" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="446" y="467" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hTPFos401AXiAO-aHQCh-114" value="[sendSMS() failed]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="476" y="462" width="128.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hTPFos401AXiAO-aHQCh-115" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="645" y="420" as="sourcePoint" />
+            <mxPoint x="835" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTPFos401AXiAO-aHQCh-116" value="SMS text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="673" y="396" width="123" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
