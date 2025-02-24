@@ -2,14 +2,12 @@
 
 import requests
 import json
-
-# Store URL of resource (server)
-# url = 'https://web.engr.oregonstate.edu/~bianchjo' 
-url = 'https://economic-rainy-numeric.glitch.me/sms-alert'
+from credentials import url
+from credentials import my_phone
 
 data = {
     "route": "https://www.google.com/maps/dir/starting_latitude,starting_longitude/stop_1_latitude,stop_1_longitude/stop_2_latitude,stop_2_longitude/destination_latitude,destination_longitude/",
-    "phone": "772-607-1597"
+    "phone": my_phone
     } 
 
 # Send new data via POST request
