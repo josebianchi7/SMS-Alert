@@ -55,6 +55,10 @@ else:
 ```
 
 
+## UML Sequence Diagram
+![alt text](SMS-UML.png)
+
+
 ## Deployment Requirements
 
 To deploy this project, the following is required:
@@ -94,7 +98,4 @@ To deploy this project, the following is required:
 | `from` | `string` | **Required**. Your Vonage From number |
 
   Vonage provides basic code in popular programming languages to insert into your program. See example in socket/webSocket.js in this repository.
-
-
-
 

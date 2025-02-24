@@ -1,3 +1,4 @@
 # Ignore following files/ directories for syncs
 /credentials.py
 __pycache__
+/SMS-UML.png
