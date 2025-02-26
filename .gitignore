@@ -1,3 +1,8 @@
 # Ignore following files/ directories for syncs
 /credentials.py
 __pycache__
+.glitchdotcom.json
+.node-gyp
+node_modules
+/.env
+/package-lock.json

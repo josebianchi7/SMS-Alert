@@ -17,6 +17,8 @@ To utilize this microservice to send data from a main program or other microserv
 
 URL: https://economic-rainy-numeric.glitch.me/sms-alert
 
+See example of code from Glitch in app.js in this directory.
+
 Example call to request microservice to send data to a phone number (using Python):
 
 1.  Import necessary library modules, store URL for where to send data, have data with a route and phone number to send.
@@ -81,8 +83,7 @@ To deploy this project, the following is required:
       "express": "^4.21.2",
       "handlebars": "^4.7.8",
       "nexmo": "^2.9.1",
-      "nexmo-client": "^9.6.1",
-      "ws": "^8.18.0"
+      "nexmo-client": "^9.6.1"
     }
   ```
 
@@ -97,5 +98,5 @@ To deploy this project, the following is required:
 | `apiSecret` | `string` | **Required**. Your API Secret |
 | `from` | `string` | **Required**. Your Vonage From number |
 
-  Vonage provides basic code in popular programming languages to insert into your program. See example in socket/webSocket.js in this repository.
+  Vonage provides basic code in popular programming languages to insert into your program.
 
