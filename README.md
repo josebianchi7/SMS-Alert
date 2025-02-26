@@ -6,7 +6,7 @@ This program listens for HTTP post requests with a JSON object containing route 
 
 ## Authors and Acknowledgements
 
-- [@josebianchi7](https://github.com/josebianchi7/Portfolio)
+- [@josebianchi7](https://github.com/josebianchi7)
 - Glitch Web Hosting (https://glitch.com/)
 - Vonage Communication and Network APIs (https://developer.vonage.com/en/home)
 
